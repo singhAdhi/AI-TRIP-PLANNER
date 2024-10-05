@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.json"
+    },
+    
+  ],
+  "compilerOptions": {
+    "baseUrl": ".", // This defines the base directory of your project
+    "paths": {
+      "@components/*": ["src/components/*"], // Alias for the components folder
+      "@utils/*": ["src/utils/*"],           // Alias for the utils folder (example)
+    }
+  }
+}

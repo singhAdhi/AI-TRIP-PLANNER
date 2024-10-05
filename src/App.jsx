@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Button } from "./components/ui/button";
+import Hero from "./components/custom/Hero";
 
 import "./App.css";
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-      <Button>Hello</Button>
+      <Hero />
     </>
   );
 }
